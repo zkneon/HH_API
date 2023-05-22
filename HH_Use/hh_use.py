@@ -42,8 +42,7 @@ class HH_Use:
         if resp.ok:
             pprint('Response get')
             return resp.json()
-        else:
-            print(Exception)
+
 
     def separ(self):
         data = self.get_data()
